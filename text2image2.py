@@ -17,8 +17,8 @@ print(texts)
 json = {"text_prompts":texts,
         "cfg_scale": 7,
         "clip_guidance_preset": "FAST_BLUE",
-        "height": 512,
-        "width": 512,
+        "height": 768,
+        "width": 1280,
         "samples": 1,
         "steps": 30,
     }
